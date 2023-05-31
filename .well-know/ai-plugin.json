@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "ToDo Plugin",
+    "name_for_model": "ToDo",
+    "description_for_human" : "Manage a ToDo List",
+    "description_for_model" : "Plugin for managing a ToDo List for ChatGPT. You can add, edit, or remove items",
+    "auth" : {
+        "type": "nones"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:3000/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "http://localhost:3000/logo.png",
+    "contact_email_url": "luis.udec.sanchez@gmail.com",
+    "legal_info_url": "http://localhost:3000/legal"
+}
